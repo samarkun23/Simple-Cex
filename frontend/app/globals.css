@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-greenBackgrounTransparent: rgba(0, 194, 120, .12);
+
+    --color-redBackgroundTransparent: rgba(234, 56, 59, .12);
+
+    --color-baseBackgroundL2: rgb(32, 33, 39);
+
+    --color-baseBackgroundL3: rgb(32, 33, 39);
+
+    --color-greenPrimaryButtonBackground: rgb(0, 194, 120);
+
+    --color-redBorder: rgba(234, 56, 59, .5);
+
+    --color-greenBorder: rgba(0, 194, 120, .4);
+
+    --color-baseBorderMed: #cccccc;
+
+    --color-accentBlue: rgb(76, 148, 255);
+
+    --color-baseBorderLight: rgb(32, 33, 39);
+
+    --color-baseTextHighEmphasis: rgb(244, 244, 246);
+
+    --color-greenPrimaryButtonText: rgb(20, 21, 27);
+}
