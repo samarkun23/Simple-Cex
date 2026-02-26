@@ -1,4 +1,5 @@
 import {type RedisClientType , createClient} from 'redis'
+import type { MessageToEngin } from '../types/type.js';
 
 
 export class RedisClass {
@@ -20,7 +21,7 @@ export class RedisClass {
         return this.instance
     }
 
-    public sendAndAwait(message: any){
+    public sendAndAwait(message: MessageToEngin){
         return new Promise((resolve) => {
             const id = this.getRandomClientId();
 
